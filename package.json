@@ -1,0 +1,41 @@
+{
+	"name": "my-webpack-project",
+	"version": "1.0.0",
+	"description": "My webpack project",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"build": "webpack --mode=production --node-env=production",
+		"build:dev": "webpack --mode=development",
+		"serve": "webpack serve"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Tryd0g0lik/arraybuffer_netologe.git"
+	},
+	"author": "Tryd0g0lik",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Tryd0g0lik/arraybuffer_netologe/issues"
+	},
+	"homepage": "https://github.com/Tryd0g0lik/arraybuffer_netologe#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.21.0",
+		"@babel/core": "^7.21.4",
+		"@babel/plugin-transform-modules-commonjs": "^7.21.2",
+		"@babel/preset-env": "^7.21.4",
+		"@webpack-cli/generators": "^3.0.1",
+		"babel-jest": "^29.5.0",
+		"babel-loader": "^9.1.2",
+		"eslint": "^8.38.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-webpack-plugin": "^4.0.1",
+		"html-webpack-plugin": "^5.5.1",
+		"jest": "^29.5.0",
+		"prettier": "^2.8.7",
+		"webpack": "^5.80.0",
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.13.3"
+	}
+}
